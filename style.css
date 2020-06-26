@@ -1,0 +1,82 @@
+body {
+  color: dimgrey;
+  font-family: geneva;
+
+}
+#title {
+  font-size: xx-large;
+  font-weight: 100;
+  font-varients: small-caps;
+  text-align: center;
+}
+#description {
+  font-family: geneva;
+  width: 50vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+#author {
+  text-align: center;
+}
+
+#form-container {
+  width: 50vw;
+  height: auto;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  display:flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+#survey-form {
+  font-family: geneva;
+  font-size: small;
+}
+
+
+input {
+  width: 40vw;
+  border-radius: 3px;
+  border: 3px;
+  padding: 8px;
+  margin-top: 1vh;
+}
+select {
+  width: 40vw;
+  border-radius: 3px;
+  border: 3px;
+  padding: 8px;
+  margin-top: 1vh;
+  color: dimgrey;
+  font-family: geneva;
+}
+input[type="radio"] {
+  display: inline-block;
+  position: absolute;
+  left: 175px;
+   
+}
+input[type="checkbox"] {
+  display: inline-block;
+  position: absolute;
+  left: 375px;
+}
+
+#txtarea {
+  width: 40vw;
+  font-family: geneva;
+}
+
+#submit {
+  width: 20vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-color: slategray;
+  color: white;
+}

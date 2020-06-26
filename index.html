@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - P2</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <h1 id="title"> Constellations</h1>
+  <p id="description"> "Stars exist in the cosmos but constellations are the imaginary lines we draw between them. The readings we give the sky. The stories we tell" </p><p id="author">- Rebecca Solnit</p> 
+</header>
+
+<main>
+  <div id="form-container">
+  <form id="survey-form"> 
+    <label id="name-label" for="contact-info"> Name: </label>
+    <br>
+    <input name="contact-info" 
+           type="text" 
+           id="name"   
+           placeholder="Enter your Name" required>
+    <br><br>
+    <label id="email-label" for="contact-info"> Email: </label>
+    <br>
+    <input name="contact-info" 
+           type="email" 
+           id="email" 
+           placeholder= "Enter your Email" 
+           required>
+    <br><br>
+    <label id="number-label" for="expertise" > How Many Constellations Can You Recognize? (optional)</label>
+    <input name="expertise" 
+           type="number" 
+           id="number" 
+           min="1" 
+           max= "88" 
+           placeholder="There are 88 Constellations">
+    <br><br>
+    <label id = dropdown-label for="favorite"> What's your Favorite Constellation? <br> </label>
+    <select name = "favorite"
+           type = dropdown
+           id = dropdown
+           placeholder = "Select From the Dropdown Menu"
+           required>
+      <option value="Orion"> Orion </option>
+      <option value="Gemini"> Gemini </option>
+      <option value="Scorpius"> Scorpius </option>
+      <option value="Virgo"> Virgo </option>
+      <option value="Libra"> Libra </option>
+    </select>
+      <p> Do you Believe in Zodiac Signs? <p>
+      <input name= "belief" 
+             type= "radio"
+             value= "yes"/>
+      <label for: "belief"> Yes </label> <br>
+      <input name= "belief" 
+             type= "radio"
+             value= "no">
+      <label for= "belief"> No </label> <br>
+    
+    <p> Where Have you Been Stargazing? </p>
+    <label id="location-label" for="locations"> 
+      Death Valley National Park, CA & NV </label>
+    <input name = "locations"
+           type = "checkbox"
+           value = "Death Valley National Park">
+    <br>
+    <label id="location-label" for="locations"> 
+      Sierra la Rana, TX </label>
+    <input name = "locations"
+           type = "checkbox"
+           value = "Sierra la Rana, TX">
+    <br>
+    <label id="location-label" for="locations"> 
+      Massacre Rim, NV </label>
+    <input name = "locations"
+           type = "checkbox"
+           value = "Massacre Rim, NV">
+    <br>
+    <p> Any additional thoughts on Constellations? </p>
+    <label for="thoughts"> 
+    <textarea name = "thoughts"
+              id = "txtarea"
+              rows = "5" 
+              columns = "70">
+    </textarea>
+ 
+   <input type="submit" 
+          id = "submit"
+          value = "submit">
+    
+  </div>
+  </form>
+</main>
+
+<footer>
+</footer>
+<!-- partial -->
+  
+</body>
+</html>
